@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 1rem;
 }
 
 .App-logo {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  cursor: pointer;
+  user-select: none;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.user-info {
+  text-align: left;
 }
