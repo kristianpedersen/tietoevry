@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tietoevry/static/css/main.c3763e97.chunk.css",
+    "main.js": "/tietoevry/static/js/main.8cd11cfc.chunk.js",
+    "main.js.map": "/tietoevry/static/js/main.8cd11cfc.chunk.js.map",
+    "runtime-main.js": "/tietoevry/static/js/runtime-main.03c3cbf8.js",
+    "runtime-main.js.map": "/tietoevry/static/js/runtime-main.03c3cbf8.js.map",
+    "static/js/2.1f530901.chunk.js": "/tietoevry/static/js/2.1f530901.chunk.js",
+    "static/js/2.1f530901.chunk.js.map": "/tietoevry/static/js/2.1f530901.chunk.js.map",
+    "static/js/3.d54dd2ea.chunk.js": "/tietoevry/static/js/3.d54dd2ea.chunk.js",
+    "static/js/3.d54dd2ea.chunk.js.map": "/tietoevry/static/js/3.d54dd2ea.chunk.js.map",
+    "index.html": "/tietoevry/index.html",
+    "static/css/main.c3763e97.chunk.css.map": "/tietoevry/static/css/main.c3763e97.chunk.css.map",
+    "static/js/2.1f530901.chunk.js.LICENSE.txt": "/tietoevry/static/js/2.1f530901.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03c3cbf8.js",
+    "static/js/2.1f530901.chunk.js",
+    "static/css/main.c3763e97.chunk.css",
+    "static/js/main.8cd11cfc.chunk.js"
+  ]
+}
