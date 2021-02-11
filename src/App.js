@@ -32,23 +32,24 @@ export default function App() {
 
   // 1.3. Toggle expanded view for individual users (passed as prop to ClientInfo.js)
   function toggleUser(name) {
-    const updatedUsers = users.map(user => {
-      if (user.name === name) {
-        return { ...user, expanded: !user.expanded }
-      }
-      return user
+    setUsers(users => {
+      const prevUsersAndUpdatedUser = users.map(user => {
+        if (user.name === name) {
+          return { ...user, expanded: !user.expanded }
+        } else {
+          return user
+        }
+      })
+      return prevUsersAndUpdatedUser
     })
-    setUsers(updatedUsers)
   }
 
   // 1.4. Show or hide expanded view for all users
   function showAllUserInfo(newState) {
-    setUsers(users => {
-      const updatedUsers = users.map(user => {
-        return { ...user, expanded: newState }
-      })
-      return updatedUsers
-    })
+    setUsers(users => users.map(user => {
+      const updatedUser = { ...user, expanded: newState }
+      return updatedUser
+    }))
   }
 
   // 2. JSX
